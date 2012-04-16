@@ -31,7 +31,7 @@ extern "C" {
 # define FPM_PPC
 #endif
 	
-
+#define FPM_PPC
 
 # define SIZEOF_INT 4
 # define SIZEOF_LONG 4

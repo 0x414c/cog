@@ -38,6 +38,9 @@ then
     elif [ "x86_64" == "$arch" ]
     then
       compiler="clang -arch x86_64"
+    elif [ "ppc" == "$arch" ]
+    then
+      compiler="/Users/dima/xcode3.2.5/usr/bin/clang -arch ppc -isysroot /Users/dima/xcode3.2.5/SDKs/MacOSX10.5.sdk"
     fi
     sh ./configure \
       --disable-doc \
