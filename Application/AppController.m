@@ -440,7 +440,7 @@ increase/decrease as long as the user holds the left/right, plus/minus button */
 	[userDefaultsValuesDict setObject:[NSNumber numberWithBool:YES] forKey:@"remoteEnabled"];
 	[userDefaultsValuesDict setObject:[NSNumber numberWithBool:YES] forKey:@"remoteOnlyOnActive"];
 
-	[userDefaultsValuesDict setObject:@"http://mamburu.net/cog/stable.xml" forKey:@"SUFeedURL"];
+	[userDefaultsValuesDict setObject:@"http://mamburu.net/cog/stable-10.5.xml" forKey:@"SUFeedURL"];
 
 
 	[userDefaultsValuesDict setObject:@"clearAndPlay" forKey:@"openingFilesBehavior"];

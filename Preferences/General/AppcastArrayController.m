@@ -17,7 +17,7 @@
 
 	[self addObject:
 		[NSDictionary dictionaryWithObjectsAndKeys:
-			NSLocalizedStringFromTableInBundle(@"Stable", nil, [NSBundle bundleForClass:[self class]], @"") , @"name", @"http://mamburu.net/cog/stable.xml", @"url",nil]];
+			NSLocalizedStringFromTableInBundle(@"Stable", nil, [NSBundle bundleForClass:[self class]], @"") , @"name", @"http://mamburu.net/cog/stable-10.5.xml", @"url",nil]];
 			
 //	[self addObject:
 //		[NSDictionary dictionaryWithObjectsAndKeys:
@@ -25,7 +25,7 @@
 			
 	[self addObject:
 		[NSDictionary dictionaryWithObjectsAndKeys:
-			NSLocalizedStringFromTableInBundle(@"Nightly", nil, [NSBundle bundleForClass:[self class]], @"") , @"name", @"http://mamburu.net/cog/nightly.xml", @"url",nil]];
+			NSLocalizedStringFromTableInBundle(@"Nightly", nil, [NSBundle bundleForClass:[self class]], @"") , @"name", @"http://mamburu.net/cog/nightly-10.5.xml", @"url",nil]];
 }
 
 
