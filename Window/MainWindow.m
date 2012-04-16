@@ -18,7 +18,7 @@
 	{
 		[self setExcludedFromWindowsMenu:YES];
 		[self setContentBorderThickness:24.0 forEdge:NSMinYEdge];
-        [self setCollectionBehavior:NSWindowCollectionBehaviorFullScreenPrimary];
+//        [self setCollectionBehavior:NSWindowCollectionBehaviorFullScreenPrimary];
 	}
 	
 	return self;

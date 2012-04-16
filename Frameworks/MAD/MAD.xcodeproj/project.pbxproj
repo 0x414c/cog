@@ -314,7 +314,7 @@
 				INSTALL_PATH = "@loader_path/../Frameworks";
 				LIBRARY_STYLE = DYNAMIC;
 				MACH_O_TYPE = mh_dylib;
-				OTHER_CFLAGS = "-DHAVE_CONFIG_H";
+				OTHER_CFLAGS = "-DHAVE_CONFIG_H -DFPM_PPC";
 				"OTHER_CFLAGS[arch=i386]" = (
 					"-DHAVE_CONFIG_H",
 					"-DFPM_INTEL",
@@ -332,10 +332,10 @@
 		4FADC24708B4156D00ABE55E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = ppc;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				SDKROOT = macosx;
+				SDKROOT = /Users/dima/xcode3.2.5/SDKs/MacOSX10.5.sdk;
 				SYMROOT = ../../build;
 			};
 			name = Debug;
@@ -343,10 +343,11 @@
 		4FADC24808B4156D00ABE55E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = ppc;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				SDKROOT = macosx;
+				OTHER_CFLAGS = "-DFPM_PPC";
+				SDKROOT = /Users/dima/xcode3.2.5/SDKs/MacOSX10.5.sdk;
 				SYMROOT = ../../build;
 			};
 			name = Release;

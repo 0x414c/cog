@@ -18,7 +18,7 @@
 	{
 		[self setShowsResizeIndicator:NO];
 		[self setExcludedFromWindowsMenu:YES];
-        [self setCollectionBehavior:NSWindowCollectionBehaviorFullScreenAuxiliary];
+//        [self setCollectionBehavior:NSWindowCollectionBehaviorFullScreenAuxiliary];
 	}
 	
 	return self;

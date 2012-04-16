@@ -45,7 +45,7 @@
     [self center];
     
     [self createToolbar];
-        [self setCollectionBehavior:NSWindowCollectionBehaviorFullScreenAuxiliary];
+//        [self setCollectionBehavior:NSWindowCollectionBehaviorFullScreenAuxiliary];
   }
   
   return self;
