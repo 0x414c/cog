@@ -13,7 +13,6 @@
 #import <TagLib/mp4file.h>
 #import <TagLib/id3v2tag.h>
 #import <TagLib/attachedpictureframe.h>
-#import <CogAudio/AudioMetadataReader.h>
 
 @implementation TagLibMetadataReader
 
@@ -98,8 +97,7 @@
         }
 
         if (nil != image) {
-            [dict setObject:image forKey:@"albumArt"];
-		    [AudioMetadataReader cacheAlbumArtFor:dict];
+            [dict setObject:image forKey:@"albumArt"];		    
 		}
     }
 
