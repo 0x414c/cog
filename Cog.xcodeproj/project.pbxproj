@@ -148,7 +148,6 @@
 		3259FD1F1672AEB9008FC4D0 /* miniModeOnTemplate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3259FD1D1672AEB9008FC4D0 /* miniModeOnTemplate.pdf */; };
 		3284FD6F14E6DC37007A5581 /* NDHotKey.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 32F1617314E6BB3C00D6AB2F /* NDHotKey.framework */; };
 		3299F133166FA3DC0056C7BA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3299F132166FA3DC0056C7BA /* SenTestingKit.framework */; };
-		3299F135166FA3DC0056C7BA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3299F134166FA3DC0056C7BA /* Cocoa.framework */; };
 		3299F13C166FA3DC0056C7BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3299F13A166FA3DC0056C7BA /* InfoPlist.strings */; };
 		3299F13F166FA3DC0056C7BA /* CogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3299F13E166FA3DC0056C7BA /* CogTests.m */; };
 		32DB427214ED797400BECF92 /* cog_public.pem in Resources */ = {isa = PBXBuildFile; fileRef = 32DB427114ED797400BECF92 /* cog_public.pem */; };
@@ -780,7 +779,6 @@
 		3259FD1D1672AEB9008FC4D0 /* miniModeOnTemplate.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = miniModeOnTemplate.pdf; path = Images/miniModeOnTemplate.pdf; sourceTree = "<group>"; };
 		3299F131166FA3DC0056C7BA /* CogTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CogTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3299F132166FA3DC0056C7BA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3299F134166FA3DC0056C7BA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		3299F136166FA3DC0056C7BA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		3299F139166FA3DC0056C7BA /* CogTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CogTests-Info.plist"; sourceTree = "<group>"; };
 		3299F13B166FA3DC0056C7BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -873,7 +871,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3299F133166FA3DC0056C7BA /* SenTestingKit.framework in Frameworks */,
-				3299F135166FA3DC0056C7BA /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1435,7 +1432,6 @@
 			children = (
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				3299F132166FA3DC0056C7BA /* SenTestingKit.framework */,
-				3299F134166FA3DC0056C7BA /* Cocoa.framework */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
